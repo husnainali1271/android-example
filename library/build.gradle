@@ -42,7 +42,7 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.jitpack'
+                groupId = 'com.github.husnainali1271'
                 artifactId = 'android-example'
                 version = '1.0'
             }
